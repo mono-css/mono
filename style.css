@@ -1,0 +1,45 @@
+body {
+  background-color: #CFCFCD;
+  color: #696D7D;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1{
+  font-size: 40vh;
+  margin-top: -10vh;
+}
+
+h2{
+  margin-top: 20vh;
+}
+
+#all{
+  height: 100dvh;
+  scroll-snap-align: center;
+}
+
+html{
+    scroll-snap-type: y mandatory;
+}
+
+.boxone{
+  display:flex;
+  flex-direction: column;
+
+}
+
+.photography{
+  width: 100dvw;
+ display: flex;
+ justify-content: center;
+ align-items: space-around;
+ background-color: #ffffff;
+}
+
